@@ -34,12 +34,12 @@ class Counter extends Component {
 
   // TOGGLE ... Increments either Double or Single by "inc"
   toggle = () => {
-    if (this.state.inc == 1) {
+    if (this.state.inc === 1) {
       this.setState({
         inc: 2
       })
     }
-    if (this.state.inc == 2) {
+    if (this.state.inc === 2) {
       this.setState({
         inc: 1
       })
